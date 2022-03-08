@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from './components/Button';
 import TomatoButton from './components/TomatoButton';
 import ReversedButton from './components/ReversedButton';
+import StyledLink from './components/StyledLink';
 
 
 const Title = styled.h1`
@@ -29,6 +30,7 @@ function App() {
       <TomatoButton>Tomato</TomatoButton>
       <TomatoButton as="a" href="#">Link with Tomato Button styles</TomatoButton>
       <Button as={ReversedButton}>Custom Button with Normal Button styles</Button>
+      <StyledLink>hola link</StyledLink>
     </div>
   );
 }

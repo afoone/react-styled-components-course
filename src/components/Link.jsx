@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Link = ({ className, children }) => {
     return (
-        <a className={className}>
+        <a className={className} href="http://iprocuratio.com">
             {children}
         </a>
     )
